@@ -1,0 +1,222 @@
+:root {
+	--primary: rgb(250, 100, 100);
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	color: #bfbfbf;
+	text-decoration: none;
+	transition: 256ms;
+}
+a:hover {
+	color: var(--primary);
+}
+.static-navbar {
+	transition: 256ms;
+}
+.static-navbar-nav a {
+	padding: 30px 15px !important;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	font-size: 12px;
+	height: 100%;
+	transition: 256ms;
+}
+.navbar-brand img {
+	transition: 256ms;
+}
+.static-navbar.active .navbar-brand img {
+	height: 40px;
+}
+.static-navbar.active .static-navbar-nav a {
+	padding: 20px 15px !important;
+}
+.static-navbar-nav a:hover,
+.static-navbar-nav a.active {
+	background-color: var(--primary);
+	color: white;
+}
+.static-navbar a {
+	color: white;
+}
+.static-icon a {
+	margin: 0 5px;
+	display: block;
+}
+.static-icon a span {
+	font-size: 14px;
+}
+.color-primary {
+	color: var(--primary);
+}
+.color-primary:hover {
+	color: var(--primary);
+}
+.hover-primary:hover {
+	color: var(--primary) !important;
+}
+.hover-primary-group:hover * {
+	color: var(--primary) !important;
+}
+.embed-hr {
+	border: 0;
+	background-color: var(--primary);
+	width: 60px;
+	opacity: 1;
+	margin: 1em auto;
+}
+.readmore {
+	line-height: 1;
+	color: #fff;
+	background: var(--primary);
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 0.25em;
+	transition: 256ms;
+}
+.readmore:hover {
+	color: white;
+}
+.hover-opacity {
+	transition: 256ms;
+}
+.hover-opacity:hover {
+	opacity: 0.6 !important;
+}
+.pagination-post a,
+.pagination-post span {
+	font-size: 13px;
+	text-decoration: none;
+	color: #bbb;
+	letter-spacing: 0.75px;
+}
+.pagination-post a:hover {
+	color: var(--primary);
+	text-decoration: none;
+}
+.pagination-post a.diabled,
+.pagination-post a.diabled span {
+	color: #999 !important;
+}
+a:hover {
+	color: var(--primary);
+}
+.heading-bar {
+	border-bottom: 2px solid #313131;
+	margin-bottom: 30px;
+}
+.heading-bar span {
+	border: 2px solid #313131;
+	border-bottom: none;
+	font-size: 14px;
+	transform: translateY(1px);
+	font-weight: 500;
+	background-color: #3a3a3a;
+	display: inline-block;
+	color: #e5e5e5;
+	padding: 6px 12px;
+}
+.search-inline {
+	border: 2px solid #313131;
+	display: flex;
+	padding: 8px;
+}
+.search-inline input {
+	flex: 1;
+}
+.search-inline button,
+.search-inline input {
+	background-color: transparent;
+	border: 0;
+	color: #a5a5a5;
+	font-size: 14px;
+}
+.search-inline button:focus,
+.search-inline input:focus {
+	outline: 0;
+}
+.posts-titles a {
+	border-bottom: 2px solid #313131;
+	transition: 256ms;
+	color: #eee;
+	text-decoration: none;
+}
+.posts-titles a:last-child {
+	border-bottom: 0;
+}
+.posts-titles a:hover {
+	color: var(--primary) !important;
+	text-decoration: underline;
+}
+.posts-titles span {
+	color: #aaa !important;
+}
+.fs-7 {
+	font-size: 14px;
+}
+.fs-8 {
+	font-size: 12px;
+}
+.fw-medium {
+	font-weight: 500;
+}
+.categories-names a:hover span {
+	color: var(--primary) !important;
+	transition: 256ms;
+}
+.text-color {
+	color: #afafaf;
+}
+.bg-dark {
+	background-color: #0c0c0c !important;
+}
+.tags-list a {
+	border: 1px solid #313131;
+	padding: 4px 12px;
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 4px;
+}
+.tags-list a:hover {
+	background-color: var(--primary);
+	color: white;
+}
+.cursor {
+	cursor: pointer;
+}
+.comment-submit {
+	background-color: #313131 !important;
+}
+.comment-submit:hover {
+	background-color: var(--primary) !important;
+}
+.slider-post-title {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgb(0 0 0 / 50%);
+	padding: 1em;
+	color: white;
+}
+.slider-post-title:hover {
+	color: white;
+	background-color: rgb(0 0 0 / 75%);
+}
+.react-multi-carousel-dot button {
+	background-color: #afafaf;
+	border: 0 !important;
+	margin: 0 0.4em !important;
+	width: 10px !important;
+	height: 10px !important;
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button {
+	background-color: var(--primary);
+}
